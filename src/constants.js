@@ -1,5 +1,5 @@
 import {scaleOrdinal} from 'd3-scale';
-export const API_DOMAIN = 'https://data.incovid19.org';
+export const API_DOMAIN = 'https://incovid19.github.io/data-staging';
 
 export const DATA_API_ROOT = `${API_DOMAIN}/v4/min`;
 export const API_REFRESH_INTERVAL = 100000; // seconds
