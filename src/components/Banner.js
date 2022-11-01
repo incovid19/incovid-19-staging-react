@@ -12,10 +12,29 @@ function Banner(props) {
           <AlertIcon size={16} />
         </div> */}
         <div className="content">
-          {t('Do checkout our latest graphs on vaccination coverage for each state.')}
+          {t('⚠ As of 1st November 2022, only National and State level data as published by MoHFW will be updated on this site.')}
         </div>
-        <div className="content">
-          {t('Please send suggestions and observations to')}{''}
+        <div className='content'>
+        <a
+          href="https://www.incovid19.org/notice"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {t('Read more →  ')}
+        </a>
+        </div>&nbsp; &nbsp;
+        <div> 
+          Please 
+        </div>&nbsp;
+        <a
+          href="mailto:contact@incovid19.org"
+          rel="noreferrer"
+          target="_blank"
+        >
+          contact us
+        </a>&nbsp;
+        <div>
+          for specific data requests
         </div>
         {/* <a
           href="https://github.com/incovid19/data/issues"
@@ -25,13 +44,6 @@ function Banner(props) {
           &nbsp;Github
         </a> */}
         {/* ,&nbsp; */}
-        <a
-          href="mailto: contact@incovid19.org"
-          rel="noreferrer"
-          target="_blank"
-        >
-          contact@incovid19.org
-        </a>
         {/* &nbsp;{t(' or ')}&nbsp;
         {'  '} */}
         {/* <a
